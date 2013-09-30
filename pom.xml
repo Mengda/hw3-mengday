@@ -81,7 +81,7 @@
 		</dependency>
 	</dependencies>
 	<scm>
-		<connection>scm:git:git@github.com:Mengda/hw2-mengday.git</connection>
-		<developerConnection>scm:git:git@github.com:Mengda/hw2-mengday.git</developerConnection>
+		<connection>scm:git:git@github.com:Mengda/hw3-mengday.git</connection>
+		<developerConnection>scm:git:git@github.com:Mengda/hw3-mengday.git</developerConnection>
 	</scm>
 </project>
