@@ -16,8 +16,8 @@ import org.apache.uima.jcas.cas.FSList;
 
 
 /** 
- * Updated by JCasGen Sun Sep 22 21:10:57 EDT 2013
- * XML source: D:/Eclipse_Workspace/hw2-mengday/src/main/resources/descriptors/deiis_types.xml
+ * Updated by JCasGen Mon Sep 30 18:56:33 EDT 2013
+ * XML source: D:/Eclipse_Workspace/hw3-mengday/src/main/resources/FileSystemCollectionReader.xml
  * @generated */
 public class Question extends Annotation {
   /** @generated
