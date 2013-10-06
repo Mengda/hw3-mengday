@@ -1,0 +1,22 @@
+2013-10-01 00:37:44,224 [JMX connector  ] INFO  ManagementContext              - JMX consoles can connect to service:jmx:rmi:///jndi/rmi://localhost:1099/jmxrmi
+2013-10-01 00:37:44,224 [main           ] INFO  BrokerService                  - Using Persistence Adapter: MemoryPersistenceAdapter
+2013-10-01 00:37:44,225 [main           ] INFO  BrokerService                  - ActiveMQ 5.4.1 JMS Message Broker (localhost) is starting
+2013-10-01 00:37:44,226 [main           ] INFO  BrokerService                  - For help or more information please see: http://activemq.apache.org/
+2013-10-01 00:37:44,365 [main           ] INFO  TransportServerThreadSupport   - Listening for connections at: tcp://0.0.0.0:61616
+2013-10-01 00:37:44,366 [main           ] INFO  TransportConnector             - Connector openwire Started
+2013-10-01 00:37:44,367 [main           ] INFO  BrokerService                  - ActiveMQ JMS Message Broker (localhost, ID:YMD_PC-Ailen-4923-1380602264235-0:0) started
+2013-10-05 18:20:12,148 [main           ] INFO  BrokerService                  - Using Persistence Adapter: MemoryPersistenceAdapter
+2013-10-05 18:20:12,151 [main           ] INFO  BrokerService                  - ActiveMQ 5.4.1 JMS Message Broker (localhost) is starting
+2013-10-05 18:20:12,152 [main           ] INFO  BrokerService                  - For help or more information please see: http://activemq.apache.org/
+2013-10-05 18:20:12,344 [main           ] INFO  TransportServerThreadSupport   - Listening for connections at: tcp://0.0.0.0:61616
+2013-10-05 18:20:12,345 [main           ] INFO  TransportConnector             - Connector openwire Started
+2013-10-05 18:20:12,347 [main           ] INFO  BrokerService                  - ActiveMQ JMS Message Broker (localhost, ID:YMD_PC-Ailen-6340-1381011612164-0:0) started
+2013-10-05 18:20:13,154 [JMX connector  ] WARN  ManagementContext              - Failed to start jmx connector: Cannot bind to URL [rmi://localhost:1099/jmxrmi]: javax.naming.ServiceUnavailableException [Root exception is java.rmi.ConnectException: Connection refused to host: localhost; nested exception is: 
+	java.net.ConnectException: Connection refused: connect]
+2013-10-06 11:45:57,192 [main           ] INFO  BrokerService                  - Using Persistence Adapter: MemoryPersistenceAdapter
+2013-10-06 11:45:57,330 [main           ] INFO  BrokerService                  - ActiveMQ 5.4.1 JMS Message Broker (localhost) is starting
+2013-10-06 11:45:57,330 [main           ] INFO  BrokerService                  - For help or more information please see: http://activemq.apache.org/
+2013-10-06 11:45:57,449 [JMX connector  ] INFO  ManagementContext              - JMX consoles can connect to service:jmx:rmi:///jndi/rmi://localhost:1099/jmxrmi
+2013-10-06 11:45:57,790 [main           ] INFO  TransportServerThreadSupport   - Listening for connections at: tcp://0.0.0.0:61616
+2013-10-06 11:45:57,790 [main           ] INFO  TransportConnector             - Connector openwire Started
+2013-10-06 11:45:57,793 [main           ] INFO  BrokerService                  - ActiveMQ JMS Message Broker (localhost, ID:YMD_PC-Ailen-4685-1381074357342-0:0) started
