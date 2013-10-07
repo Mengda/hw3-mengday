@@ -8,10 +8,10 @@
     <parameter name="endpoint"
                value="ScnlpQueue"/>
     <parameter name="timeout"
-               value="1000"/>
+               value="10000"/>
     <parameter name="getmetatimeout"
-               value="1000"/>
+               value="10000"/>
     <parameter name="cpctimeout"
-               value="1000"/>
+               value="10000"/>
   </parameters>
 </customResourceSpecifier>

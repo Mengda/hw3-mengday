@@ -27,3 +27,69 @@
 2013-10-06 18:49:15,648 [main           ] INFO  TransportServerThreadSupport   - Listening for connections at: tcp://0.0.0.0:61616
 2013-10-06 18:49:15,649 [main           ] INFO  TransportConnector             - Connector openwire Started
 2013-10-06 18:49:15,650 [main           ] INFO  BrokerService                  - ActiveMQ JMS Message Broker (localhost, ID:YMD_PC-Ailen-8323-1381099755519-0:0) started
+2013-10-06 20:08:09,418 [JMX connector  ] INFO  ManagementContext              - JMX consoles can connect to service:jmx:rmi:///jndi/rmi://localhost:1099/jmxrmi
+2013-10-06 20:08:09,420 [main           ] INFO  BrokerService                  - Using Persistence Adapter: MemoryPersistenceAdapter
+2013-10-06 20:08:09,421 [main           ] INFO  BrokerService                  - ActiveMQ 5.4.1 JMS Message Broker (localhost) is starting
+2013-10-06 20:08:09,421 [main           ] INFO  BrokerService                  - For help or more information please see: http://activemq.apache.org/
+2013-10-06 20:08:09,559 [main           ] INFO  TransportServerThreadSupport   - Listening for connections at: tcp://0.0.0.0:61616
+2013-10-06 20:08:09,560 [main           ] INFO  TransportConnector             - Connector openwire Started
+2013-10-06 20:08:09,561 [main           ] INFO  BrokerService                  - ActiveMQ JMS Message Broker (localhost, ID:YMD_PC-Ailen-9251-1381104489430-0:0) started
+2013-10-06 20:16:12,799 [/127.0.0.1:9301] INFO  Transport                      - Transport failed: java.net.SocketException: Connection reset
+java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:168)
+	at org.apache.activemq.transport.tcp.TcpBufferedInputStream.fill(TcpBufferedInputStream.java:50)
+	at org.apache.activemq.transport.tcp.TcpTransport$2.fill(TcpTransport.java:575)
+	at org.apache.activemq.transport.tcp.TcpBufferedInputStream.read(TcpBufferedInputStream.java:58)
+	at org.apache.activemq.transport.tcp.TcpTransport$2.read(TcpTransport.java:560)
+	at java.io.DataInputStream.readInt(DataInputStream.java:370)
+	at org.apache.activemq.openwire.OpenWireFormat.unmarshal(OpenWireFormat.java:269)
+	at org.apache.activemq.transport.tcp.TcpTransport.readCommand(TcpTransport.java:226)
+	at org.apache.activemq.transport.tcp.TcpTransport.doRun(TcpTransport.java:218)
+	at org.apache.activemq.transport.tcp.TcpTransport.run(TcpTransport.java:201)
+	at java.lang.Thread.run(Thread.java:662)
+2013-10-06 20:17:28,646 [/127.0.0.1:9324] INFO  Transport                      - Transport failed: java.net.SocketException: Connection reset
+java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:168)
+	at org.apache.activemq.transport.tcp.TcpBufferedInputStream.fill(TcpBufferedInputStream.java:50)
+	at org.apache.activemq.transport.tcp.TcpTransport$2.fill(TcpTransport.java:575)
+	at org.apache.activemq.transport.tcp.TcpBufferedInputStream.read(TcpBufferedInputStream.java:58)
+	at org.apache.activemq.transport.tcp.TcpTransport$2.read(TcpTransport.java:560)
+	at java.io.DataInputStream.readInt(DataInputStream.java:370)
+	at org.apache.activemq.openwire.OpenWireFormat.unmarshal(OpenWireFormat.java:269)
+	at org.apache.activemq.transport.tcp.TcpTransport.readCommand(TcpTransport.java:226)
+	at org.apache.activemq.transport.tcp.TcpTransport.doRun(TcpTransport.java:218)
+	at org.apache.activemq.transport.tcp.TcpTransport.run(TcpTransport.java:201)
+	at java.lang.Thread.run(Thread.java:662)
+2013-10-06 20:23:19,565 [/127.0.0.1:9338] INFO  Transport                      - Transport failed: java.net.SocketException: Connection reset
+java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:168)
+	at org.apache.activemq.transport.tcp.TcpBufferedInputStream.fill(TcpBufferedInputStream.java:50)
+	at org.apache.activemq.transport.tcp.TcpTransport$2.fill(TcpTransport.java:575)
+	at org.apache.activemq.transport.tcp.TcpBufferedInputStream.read(TcpBufferedInputStream.java:58)
+	at org.apache.activemq.transport.tcp.TcpTransport$2.read(TcpTransport.java:560)
+	at java.io.DataInputStream.readInt(DataInputStream.java:370)
+	at org.apache.activemq.openwire.OpenWireFormat.unmarshal(OpenWireFormat.java:269)
+	at org.apache.activemq.transport.tcp.TcpTransport.readCommand(TcpTransport.java:226)
+	at org.apache.activemq.transport.tcp.TcpTransport.doRun(TcpTransport.java:218)
+	at org.apache.activemq.transport.tcp.TcpTransport.run(TcpTransport.java:201)
+	at java.lang.Thread.run(Thread.java:662)
+2013-10-06 20:24:34,479 [/127.0.0.1:9393] INFO  Transport                      - Transport failed: java.net.SocketException: Connection reset
+java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:168)
+	at org.apache.activemq.transport.tcp.TcpBufferedInputStream.fill(TcpBufferedInputStream.java:50)
+	at org.apache.activemq.transport.tcp.TcpTransport$2.fill(TcpTransport.java:575)
+	at org.apache.activemq.transport.tcp.TcpBufferedInputStream.read(TcpBufferedInputStream.java:58)
+	at org.apache.activemq.transport.tcp.TcpTransport$2.read(TcpTransport.java:560)
+	at java.io.DataInputStream.readInt(DataInputStream.java:370)
+	at org.apache.activemq.openwire.OpenWireFormat.unmarshal(OpenWireFormat.java:269)
+	at org.apache.activemq.transport.tcp.TcpTransport.readCommand(TcpTransport.java:226)
+	at org.apache.activemq.transport.tcp.TcpTransport.doRun(TcpTransport.java:218)
+	at org.apache.activemq.transport.tcp.TcpTransport.run(TcpTransport.java:201)
+	at java.lang.Thread.run(Thread.java:662)
+2013-10-06 23:53:34,550 [JMX connector  ] INFO  ManagementContext              - JMX consoles can connect to service:jmx:rmi:///jndi/rmi://localhost:1099/jmxrmi
+2013-10-06 23:53:34,551 [main           ] INFO  BrokerService                  - Using Persistence Adapter: MemoryPersistenceAdapter
+2013-10-06 23:53:34,553 [main           ] INFO  BrokerService                  - ActiveMQ 5.4.1 JMS Message Broker (localhost) is starting
+2013-10-06 23:53:34,553 [main           ] INFO  BrokerService                  - For help or more information please see: http://activemq.apache.org/
+2013-10-06 23:53:34,691 [main           ] INFO  TransportServerThreadSupport   - Listening for connections at: tcp://0.0.0.0:61616
+2013-10-06 23:53:34,692 [main           ] INFO  TransportConnector             - Connector openwire Started
+2013-10-06 23:53:34,693 [main           ] INFO  BrokerService                  - ActiveMQ JMS Message Broker (localhost, ID:YMD_PC-Ailen-2216-1381118014562-0:0) started

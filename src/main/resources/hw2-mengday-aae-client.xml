@@ -8,10 +8,10 @@
     <parameter name="endpoint"
                value="QAInputQueue"/>
     <parameter name="timeout"
-               value="1000"/>
+               value="100000"/>
     <parameter name="getmetatimeout"
-               value="1000"/>
+               value="100000"/>
     <parameter name="cpctimeout"
-               value="1000"/>
+               value="100000"/>
   </parameters>
 </customResourceSpecifier>

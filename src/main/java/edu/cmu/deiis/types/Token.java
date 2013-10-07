@@ -10,8 +10,8 @@ import org.apache.uima.jcas.cas.TOP_Type;
 
 
 /** 
- * Updated by JCasGen Mon Sep 30 18:56:33 EDT 2013
- * XML source: D:/Eclipse_Workspace/hw3-mengday/src/main/resources/FileSystemCollectionReader.xml
+ * Updated by JCasGen Sun Oct 06 19:54:09 EDT 2013
+ * XML source: D:/Eclipse_Workspace/hw3-mengday/src/main/resources/hw2-mengday-aae.xml
  * @generated */
 public class Token extends Annotation {
   /** @generated

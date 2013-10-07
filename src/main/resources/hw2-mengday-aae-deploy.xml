@@ -46,6 +46,15 @@
               <collectionProcessCompleteErrors timeout="0" additionalErrorAction="terminate"/>
             </asyncAggregateErrorConfiguration>
           </analysisEngine>
+          <remoteAnalysisEngine key="scnlp-mengday-client">
+            <inputQueue brokerURL="tcp://mu.lti.cs.cmu.edu:61616" endpoint="ScnlpQueue"/>
+            <serializer method="xmi"/>
+            <asyncAggregateErrorConfiguration>
+              <getMetadataErrors maxRetries="0" timeout="60000" errorAction="terminate"/>
+              <processCasErrors maxRetries="0" timeout="0" continueOnRetryFailure="false" thresholdCount="0" thresholdWindow="0" thresholdAction="terminate"/>
+              <collectionProcessCompleteErrors timeout="0" additionalErrorAction="terminate"/>
+            </asyncAggregateErrorConfiguration>
+          </remoteAnalysisEngine>
         </delegates>
         <asyncPrimitiveErrorConfiguration>
           <processCasErrors thresholdCount="0" thresholdWindow="0" thresholdAction="terminate"/>

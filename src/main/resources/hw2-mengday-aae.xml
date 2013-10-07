@@ -16,6 +16,9 @@
   <delegateAnalysisEngine key="AnswerScoreDescriptor">
       <import name="descriptors.AnswerScoreDescriptor"/>
     </delegateAnalysisEngine>
+  <delegateAnalysisEngine key="scnlp-mengday-client">
+      <import location="scnlp-mengday-client.xml"/>
+    </delegateAnalysisEngine>
   </delegateAnalysisEngineSpecifiers>
   <analysisEngineMetaData>
     <name>hw2-mengday-aae</name>
@@ -26,8 +29,9 @@
     <configurationParameterSettings/>
     <flowConstraints>
       <fixedFlow>
+        <node>scnlp-mengday-client</node>
         <node>QADescriptor</node>
-        <node>TokenDescriptor</node>
+      <node>TokenDescriptor</node>
       <node>NGramDescriptor</node>
       <node>AnswerScoreDescriptor</node>
       </fixedFlow>

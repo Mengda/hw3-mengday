@@ -6,14 +6,15 @@ import java.util.Set;
 
 import org.apache.uima.analysis_component.JCasAnnotator_ImplBase;
 import org.apache.uima.analysis_engine.AnalysisEngineProcessException;
-import org.apache.uima.cas.FSIndex;
 import org.apache.uima.cas.FSIterator;
-import org.apache.uima.cas.FeatureStructure;
 import org.apache.uima.jcas.JCas;
-import org.apache.uima.jcas.cas.FSArray;
 import org.apache.uima.jcas.tcas.Annotation;
+import org.cleartk.ne.type.NamedEntityMention;
 
-import edu.cmu.deiis.types.*;
+import edu.cmu.deiis.types.Answer;
+import edu.cmu.deiis.types.AnswerScore;
+import edu.cmu.deiis.types.NGram;
+import edu.cmu.deiis.types.Question;
 
 public class AnswerScoreAnnotator extends JCasAnnotator_ImplBase {
 
@@ -25,6 +26,12 @@ public class AnswerScoreAnnotator extends JCasAnnotator_ImplBase {
    */
   @Override
   public void process(JCas aJCas) throws AnalysisEngineProcessException {
+    
+    FSIterator<Annotation> NamedEntityit = aJCas.getAnnotationIndex(NamedEntityMention.type).iterator();
+    while(NamedEntityit.hasNext()){
+      NamedEntityMention NEM = (NamedEntityMention) NamedEntityit.next();
+      System.out.format("%s\ts=%d\te=%d\n",NEM.getCoveredText(), NEM.getBegin(), NEM.getEnd());
+    }
 
     thisProcessorClassName = this.getClass().getName();
     FSIterator<Annotation> NGramit = aJCas.getAnnotationIndex(NGram.type).iterator();

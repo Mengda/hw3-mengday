@@ -1,5 +1,5 @@
-13-10-6 12:01:33 - 10: org.apache.uima.adapter.jms.service.UIMA_Service.initialize(68): 佚連: UIMA-AS version 2.4.0
-13-10-6 12:01:33 - 10: org.apache.uima.aae.deploymentDescriptor.XsltImportByName.resolveByName: 少御: 
+13-10-6 23:53:36 - 10: org.apache.uima.adapter.jms.service.UIMA_Service.initialize(68): 佚連: UIMA-AS version 2.4.0
+13-10-6 23:53:36 - 10: org.apache.uima.aae.deploymentDescriptor.XsltImportByName.resolveByName: 少御: 
 org.apache.uima.util.InvalidXMLException: An import could not be resolved.  No .xml file with name "descriptors.QADescriptor" was found in the class path or data path. (Descriptor: <unknown>)
 	at org.apache.uima.resource.metadata.impl.Import_impl.findAbsoluteUrl(Import_impl.java:107)
 	at org.apache.uima.aae.deploymentDescriptor.XsltImportByName.resolveByName(XsltImportByName.java:39)
@@ -104,7 +104,7 @@ org.apache.uima.util.InvalidXMLException: An import could not be resolved.  No .
 	at java.lang.reflect.Method.invoke(Method.java:597)
 	at org.apache.uima.bootstrap.UimaBootstrap.main(UimaBootstrap.java:98)
 
-13-10-6 12:01:33 - 10: org.apache.uima.aae.deploymentDescriptor.XsltImportByName.resolveByName: 少御: 
+13-10-6 23:53:36 - 10: org.apache.uima.aae.deploymentDescriptor.XsltImportByName.resolveByName: 少御: 
 org.apache.uima.util.InvalidXMLException: An import could not be resolved.  No .xml file with name "descriptors.QADescriptor" was found in the class path or data path. (Descriptor: <unknown>)
 	at org.apache.uima.resource.metadata.impl.Import_impl.findAbsoluteUrl(Import_impl.java:107)
 	at org.apache.uima.aae.deploymentDescriptor.XsltImportByName.resolveByName(XsltImportByName.java:39)
@@ -237,7 +237,7 @@ org.apache.uima.util.InvalidXMLException: An import could not be resolved.  No .
 	at java.lang.reflect.Method.invoke(Method.java:597)
 	at org.apache.uima.bootstrap.UimaBootstrap.main(UimaBootstrap.java:98)
 
-13-10-6 12:01:33 - 10: org.apache.uima.aae.deploymentDescriptor.XsltImportByName.resolveByName: 少御: 
+13-10-6 23:53:36 - 10: org.apache.uima.aae.deploymentDescriptor.XsltImportByName.resolveByName: 少御: 
 org.apache.uima.util.InvalidXMLException: An import could not be resolved.  No .xml file with name "descriptors.TokenDescriptor" was found in the class path or data path. (Descriptor: <unknown>)
 	at org.apache.uima.resource.metadata.impl.Import_impl.findAbsoluteUrl(Import_impl.java:107)
 	at org.apache.uima.aae.deploymentDescriptor.XsltImportByName.resolveByName(XsltImportByName.java:39)
@@ -342,7 +342,7 @@ org.apache.uima.util.InvalidXMLException: An import could not be resolved.  No .
 	at java.lang.reflect.Method.invoke(Method.java:597)
 	at org.apache.uima.bootstrap.UimaBootstrap.main(UimaBootstrap.java:98)
 
-13-10-6 12:01:33 - 10: org.apache.uima.aae.deploymentDescriptor.XsltImportByName.resolveByName: 少御: 
+13-10-6 23:53:36 - 10: org.apache.uima.aae.deploymentDescriptor.XsltImportByName.resolveByName: 少御: 
 org.apache.uima.util.InvalidXMLException: An import could not be resolved.  No .xml file with name "descriptors.TokenDescriptor" was found in the class path or data path. (Descriptor: <unknown>)
 	at org.apache.uima.resource.metadata.impl.Import_impl.findAbsoluteUrl(Import_impl.java:107)
 	at org.apache.uima.aae.deploymentDescriptor.XsltImportByName.resolveByName(XsltImportByName.java:39)
@@ -475,7 +475,7 @@ org.apache.uima.util.InvalidXMLException: An import could not be resolved.  No .
 	at java.lang.reflect.Method.invoke(Method.java:597)
 	at org.apache.uima.bootstrap.UimaBootstrap.main(UimaBootstrap.java:98)
 
-13-10-6 12:01:33 - 10: org.apache.uima.aae.deploymentDescriptor.XsltImportByName.resolveByName: 少御: 
+13-10-6 23:53:36 - 10: org.apache.uima.aae.deploymentDescriptor.XsltImportByName.resolveByName: 少御: 
 org.apache.uima.util.InvalidXMLException: An import could not be resolved.  No .xml file with name "descriptors.NGramDescriptor" was found in the class path or data path. (Descriptor: <unknown>)
 	at org.apache.uima.resource.metadata.impl.Import_impl.findAbsoluteUrl(Import_impl.java:107)
 	at org.apache.uima.aae.deploymentDescriptor.XsltImportByName.resolveByName(XsltImportByName.java:39)
@@ -580,7 +580,7 @@ org.apache.uima.util.InvalidXMLException: An import could not be resolved.  No .
 	at java.lang.reflect.Method.invoke(Method.java:597)
 	at org.apache.uima.bootstrap.UimaBootstrap.main(UimaBootstrap.java:98)
 
-13-10-6 12:01:33 - 10: org.apache.uima.aae.deploymentDescriptor.XsltImportByName.resolveByName: 少御: 
+13-10-6 23:53:36 - 10: org.apache.uima.aae.deploymentDescriptor.XsltImportByName.resolveByName: 少御: 
 org.apache.uima.util.InvalidXMLException: An import could not be resolved.  No .xml file with name "descriptors.NGramDescriptor" was found in the class path or data path. (Descriptor: <unknown>)
 	at org.apache.uima.resource.metadata.impl.Import_impl.findAbsoluteUrl(Import_impl.java:107)
 	at org.apache.uima.aae.deploymentDescriptor.XsltImportByName.resolveByName(XsltImportByName.java:39)
@@ -713,7 +713,7 @@ org.apache.uima.util.InvalidXMLException: An import could not be resolved.  No .
 	at java.lang.reflect.Method.invoke(Method.java:597)
 	at org.apache.uima.bootstrap.UimaBootstrap.main(UimaBootstrap.java:98)
 
-13-10-6 12:01:33 - 10: org.apache.uima.aae.deploymentDescriptor.XsltImportByName.resolveByName: 少御: 
+13-10-6 23:53:36 - 10: org.apache.uima.aae.deploymentDescriptor.XsltImportByName.resolveByName: 少御: 
 org.apache.uima.util.InvalidXMLException: An import could not be resolved.  No .xml file with name "descriptors.AnswerScoreDescriptor" was found in the class path or data path. (Descriptor: <unknown>)
 	at org.apache.uima.resource.metadata.impl.Import_impl.findAbsoluteUrl(Import_impl.java:107)
 	at org.apache.uima.aae.deploymentDescriptor.XsltImportByName.resolveByName(XsltImportByName.java:39)
@@ -818,7 +818,7 @@ org.apache.uima.util.InvalidXMLException: An import could not be resolved.  No .
 	at java.lang.reflect.Method.invoke(Method.java:597)
 	at org.apache.uima.bootstrap.UimaBootstrap.main(UimaBootstrap.java:98)
 
-13-10-6 12:01:33 - 10: org.apache.uima.aae.deploymentDescriptor.XsltImportByName.resolveByName: 少御: 
+13-10-6 23:53:36 - 10: org.apache.uima.aae.deploymentDescriptor.XsltImportByName.resolveByName: 少御: 
 org.apache.uima.util.InvalidXMLException: An import could not be resolved.  No .xml file with name "descriptors.AnswerScoreDescriptor" was found in the class path or data path. (Descriptor: <unknown>)
 	at org.apache.uima.resource.metadata.impl.Import_impl.findAbsoluteUrl(Import_impl.java:107)
 	at org.apache.uima.aae.deploymentDescriptor.XsltImportByName.resolveByName(XsltImportByName.java:39)
@@ -951,13 +951,13 @@ org.apache.uima.util.InvalidXMLException: An import could not be resolved.  No .
 	at java.lang.reflect.Method.invoke(Method.java:597)
 	at org.apache.uima.bootstrap.UimaBootstrap.main(UimaBootstrap.java:98)
 
-13-10-6 12:01:33 - 10: org.apache.uima.aae.controller.BaseAnalysisEngineController.logPlatformInfo: 佚連: 
+13-10-6 23:53:37 - 10: org.apache.uima.aae.controller.BaseAnalysisEngineController.logPlatformInfo: 佚連: 
 +------------------------------------------------------------------
-                   Starting UIMA AS Service - PID: 8136
+                   Starting UIMA AS Service - PID: 8528
 +------------------------------------------------------------------
 + Service Name:hw2-mengday-aae
 + Service Queue Name:QAInputQueue
-+ Service Start Time:06 噴埖 2013 12:01:32 
++ Service Start Time:06 噴埖 2013 23:53:36 
 + UIMA AS Version:2.4.0
 + UIMA Core Version:2.4.0
 + JMS Provider Home:C:\Program Files\apache-uima-as-2.4.0\apache-activemq-5.4.1
@@ -973,10 +973,24 @@ org.apache.uima.util.InvalidXMLException: An import could not be resolved.  No .
 + JVM Loaded Jars:/C:/Program%20Files/apache-uima-as-2.4.0/lib/uimaj-bootstrap.jar;/C:/Program%20Files/apache-uima-as-2.4.0/examples/resources/;/C:/Program%20Files/apache-uima-as-2.4.0/lib/jVinci.jar;/C:/Program%20Files/apache-uima-as-2.4.0/lib/uima-adapter-soap.jar;/C:/Program%20Files/apache-uima-as-2.4.0/lib/uima-adapter-vinci.jar;/C:/Program%20Files/apache-uima-as-2.4.0/lib/uima-core.jar;/C:/Program%20Files/apache-uima-as-2.4.0/lib/uima-cpe.jar;/C:/Program%20Files/apache-uima-as-2.4.0/lib/uima-document-annotation.jar;/C:/Program%20Files/apache-uima-as-2.4.0/lib/uima-examples.jar;/C:/Program%20Files/apache-uima-as-2.4.0/lib/uima-tools.jar;/C:/Program%20Files/apache-uima-as-2.4.0/lib/uimaj-as-activemq.jar;/C:/Program%20Files/apache-uima-as-2.4.0/lib/uimaj-as-camel.jar;/C:/Program%20Files/apache-uima-as-2.4.0/lib/uimaj-as-core.jar;/C:/Program%20Files/apache-uima-as-2.4.0/lib/uimaj-as-jms.jar;/C:/Program%20Files/apache-uima-as-2.4.0/lib/xmlbeans.jar;/C:/Program%20Files/apache-uima-as-2.4.0/apache-activemq-5.4.1/activemq-all-5.4.1.jar;/C:/Program%20Files/apache-uima-as-2.4.0/apache-activemq-5.4.1/lib/activemq-camel-5.4.1.jar;/C:/Program%20Files/apache-uima-as-2.4.0/apache-activemq-5.4.1/lib/activemq-console-5.4.1.jar;/C:/Program%20Files/apache-uima-as-2.4.0/apache-activemq-5.4.1/lib/activemq-core-5.4.1.jar;/C:/Program%20Files/apache-uima-as-2.4.0/apache-activemq-5.4.1/lib/activemq-optional-5.4.1.jar;/C:/Program%20Files/apache-uima-as-2.4.0/apache-activemq-5.4.1/lib/activemq-spring-5.4.1.jar;/C:/Program%20Files/apache-uima-as-2.4.0/apache-activemq-5.4.1/lib/commons-logging-1.1.1.jar;/C:/Program%20Files/apache-uima-as-2.4.0/apache-activemq-5.4.1/lib/geronimo-j2ee-management_1.1_spec-1.0.1.jar;/C:/Program%20Files/apache-uima-as-2.4.0/apache-activemq-5.4.1/lib/geronimo-jms_1.1_spec-1.1.jar;/C:/Program%20Files/apache-uima-as-2.4.0/apache-activemq-5.4.1/lib/kahadb-5.4.1.jar;/C:/Program%20Files/apache-uima-as-2.4.0/apache-activemq-5.4.1/lib/spring-aop-3.0.3.RELEASE.jar;/C:/Program%20Files/apache-uima-as-2.4.0/apache-activemq-5.4.1/lib/spring-asm-3.0.3.RELEASE.jar;/C:/Program%20Files/apache-uima-as-2.4.0/apache-activemq-5.4.1/lib/spring-beans-3.0.3.RELEASE.jar;/C:/Program%20Files/apache-uima-as-2.4.0/apache-activemq-5.4.1/lib/spring-context-3.0.3.RELEASE.jar;/C:/Program%20Files/apache-uima-as-2.4.0/apache-activemq-5.4.1/lib/spring-core-3.0.3.RELEASE.jar;/C:/Program%20Files/apache-uima-as-2.4.0/apache-activemq-5.4.1/lib/spring-expression-3.0.3.RELEASE.jar;/C:/Program%20Files/apache-uima-as-2.4.0/apache-activemq-5.4.1/lib/spring-jms-3.0.3.RELEASE.jar;/C:/Program%20Files/apache-uima-as-2.4.0/apache-activemq-5.4.1/lib/spring-tx-3.0.3.RELEASE.jar;/C:/Program%20Files/apache-uima-as-2.4.0/apache-activemq-5.4.1/lib/xbean-spring-3.7.jar;/C:/Program%20Files/apache-uima-as-2.4.0/apache-activemq-5.4.1/lib/optional/commons-codec-1.2.jar;/C:/Program%20Files/apache-uima-as-2.4.0/apache-activemq-5.4.1/lib/optional/commons-httpclient-3.1.jar;/C:/Program%20Files/apache-uima-as-2.4.0/apache-activemq-5.4.1/lib/optional/geronimo-servlet_2.5_spec-1.2.jar;/C:/Program%20Files/apache-uima-as-2.4.0/apache-activemq-5.4.1/lib/optional/jetty-all-server-7.0.1.v20091125.jar;/C:/Program%20Files/apache-uima-as-2.4.0/apache-activemq-5.4.1/lib/optional/log4j-1.2.14.jar;/C:/Program%20Files/apache-uima-as-2.4.0/apache-activemq-5.4.1/lib/optional/xmlpull-1.1.3.4d_b4_min.jar;/C:/Program%20Files/apache-uima-as-2.4.0/apache-activemq-5.4.1/lib/optional/xstream-1.3.1.jar;
 + JVM LIB_PATH:C:\Program Files\Java\jdk1.6.0_45\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\apache-uima-as-2.4.0\uimacpp\bin;C:\Program Files\apache-uima-as-2.4.0\uimacpp\examples\tutorial\src;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\OpenCL SDK\3.0\bin\x86;C:\Program Files (x86)\Intel\OpenCL SDK\3.0\bin\x64;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Java\jdk1.6.0_45\bin;C:\Program Files\apache-maven-3.1.0\bin;C:\Users\Mengda Yang\AppData\Local\GitHub\PortableGit_015aa71ef18c047ce8509ffb2f9e4bb0e3e73f13\bin;D:\Tools\Matlab\runtime\win64;D:\Tools\Matlab\bin;C:\Program Files\apache-uima\bin;C:\Program Files\apache-uima-as-2.4.0\bin;.
 +------------------------------------------------------------------ 
-13-10-6 12:01:33 - 10: org.apache.uima.aae.controller.BaseAnalysisEngineController.C'tor: 佚連: Top Level Service : hw2-mengday-aae Configured to Use Java VM Transport For Internal Messaging
-13-10-6 12:01:33 - 10: org.apache.uima.adapter.jms.activemq.JmsInputChannel.setEndpointName: 佚連: top_level_input_queue_service_1 Service Starting - Listening for Messages 
-13-10-6 12:01:33 - 10: org.apache.uima.adapter.jms.activemq.SpringContainerDeployer.deploy: 少御: 
-org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'primitive_ctlr_QADescriptor_1.1' defined in URL [file:C:/Users/MENGDA~1/AppData/Local/Temp/UIMAdd2springOutput687582808925489114.xml]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Could not instantiate bean class [org.apache.uima.aae.controller.PrimitiveAnalysisEngineController_impl]: Constructor threw exception; nested exception is org.apache.uima.util.InvalidXMLException: An import could not be resolved.  No .xml file with name "descriptors.QADescriptor" was found in the class path or data path. (Descriptor: <unknown>)
+13-10-6 23:53:37 - 10: org.apache.uima.aae.controller.BaseAnalysisEngineController.C'tor: 佚連: Top Level Service : hw2-mengday-aae Configured to Use Java VM Transport For Internal Messaging
+13-10-6 23:53:37 - 10: org.apache.uima.aae.controller.BaseAnalysisEngineController.C'tor: 佚連: >>> Controller: hw2-mengday-aae Configured To Serialize CASes To Remote Delegate: scnlp-mengday-client Using xmi Serialization
+13-10-6 23:53:37 - 10: org.apache.uima.adapter.jms.activemq.JmsInputChannel.setEndpointName: 佚連: top_level_input_queue_service_1 Service Starting - Listening for Messages 
+13-10-6 23:53:37 - 10: org.apache.uima.adapter.jms.activemq.JmsInputChannel.setEndpointName: 佚連:  Service Starting - Listening for Messages 
+13-10-6 23:53:37 - 11: org.apache.uima.adapter.jms.activemq.UimaDefaultMessageListenerContainer$3.destroy: 少御: 
+org.springframework.jms.listener.AbstractJmsListeningContainer$SharedConnectionNotInitializedException: This listener container's shared Connection has not been initialized yet
+	at org.springframework.jms.listener.AbstractJmsListeningContainer.getSharedConnection(AbstractJmsListeningContainer.java:483)
+	at org.apache.uima.adapter.jms.activemq.UimaDefaultMessageListenerContainer.access$2000(UimaDefaultMessageListenerContainer.java:69)
+	at org.apache.uima.adapter.jms.activemq.UimaDefaultMessageListenerContainer$3.run(UimaDefaultMessageListenerContainer.java:1010)
+
+13-10-6 23:53:37 - 13: org.apache.uima.adapter.jms.activemq.UimaDefaultMessageListenerContainer$3.destroy: 少御: 
+org.springframework.jms.listener.AbstractJmsListeningContainer$SharedConnectionNotInitializedException: This listener container's shared Connection has not been initialized yet
+	at org.springframework.jms.listener.AbstractJmsListeningContainer.getSharedConnection(AbstractJmsListeningContainer.java:483)
+	at org.apache.uima.adapter.jms.activemq.UimaDefaultMessageListenerContainer.access$2000(UimaDefaultMessageListenerContainer.java:69)
+	at org.apache.uima.adapter.jms.activemq.UimaDefaultMessageListenerContainer$3.run(UimaDefaultMessageListenerContainer.java:1010)
+
+13-10-6 23:53:37 - 10: org.apache.uima.adapter.jms.activemq.SpringContainerDeployer.deploy: 少御: 
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'primitive_ctlr_QADescriptor_1.1' defined in URL [file:C:/Users/MENGDA~1/AppData/Local/Temp/UIMAdd2springOutput3290908930603964653.xml]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Could not instantiate bean class [org.apache.uima.aae.controller.PrimitiveAnalysisEngineController_impl]: Constructor threw exception; nested exception is org.apache.uima.util.InvalidXMLException: An import could not be resolved.  No .xml file with name "descriptors.QADescriptor" was found in the class path or data path. (Descriptor: <unknown>)
 	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:286)
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:993)
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:897)
@@ -1020,19 +1034,13 @@ Caused by: org.apache.uima.util.InvalidXMLException: An import could not be reso
 	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:126)
 	... 23 more
 
-13-10-6 12:01:33 - 11: org.apache.uima.adapter.jms.activemq.UimaDefaultMessageListenerContainer$3.destroy: 少御: 
+13-10-6 23:53:37 - 12: org.apache.uima.adapter.jms.activemq.UimaDefaultMessageListenerContainer$3.destroy: 少御: 
 org.springframework.jms.listener.AbstractJmsListeningContainer$SharedConnectionNotInitializedException: This listener container's shared Connection has not been initialized yet
 	at org.springframework.jms.listener.AbstractJmsListeningContainer.getSharedConnection(AbstractJmsListeningContainer.java:483)
 	at org.apache.uima.adapter.jms.activemq.UimaDefaultMessageListenerContainer.access$2000(UimaDefaultMessageListenerContainer.java:69)
 	at org.apache.uima.adapter.jms.activemq.UimaDefaultMessageListenerContainer$3.run(UimaDefaultMessageListenerContainer.java:1010)
 
-13-10-6 12:01:33 - 12: org.apache.uima.adapter.jms.activemq.UimaDefaultMessageListenerContainer$3.destroy: 少御: 
-org.springframework.jms.listener.AbstractJmsListeningContainer$SharedConnectionNotInitializedException: This listener container's shared Connection has not been initialized yet
-	at org.springframework.jms.listener.AbstractJmsListeningContainer.getSharedConnection(AbstractJmsListeningContainer.java:483)
-	at org.apache.uima.adapter.jms.activemq.UimaDefaultMessageListenerContainer.access$2000(UimaDefaultMessageListenerContainer.java:69)
-	at org.apache.uima.adapter.jms.activemq.UimaDefaultMessageListenerContainer$3.run(UimaDefaultMessageListenerContainer.java:1010)
-
-13-10-6 12:01:33 - 10: org.apache.uima.adapter.jms.service.UIMA_Service.main: 少御: 
+13-10-6 23:53:37 - 10: org.apache.uima.adapter.jms.service.UIMA_Service.main: 少御: 
 org.apache.uima.resource.ResourceInitializationException
 	at org.apache.uima.adapter.jms.activemq.SpringContainerDeployer.deploy(SpringContainerDeployer.java:475)
 	at org.apache.uima.adapter.jms.service.UIMA_Service.deploy(UIMA_Service.java:168)
@@ -1042,7 +1050,7 @@ org.apache.uima.resource.ResourceInitializationException
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
 	at java.lang.reflect.Method.invoke(Method.java:597)
 	at org.apache.uima.bootstrap.UimaBootstrap.main(UimaBootstrap.java:98)
-Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'primitive_ctlr_QADescriptor_1.1' defined in URL [file:C:/Users/MENGDA~1/AppData/Local/Temp/UIMAdd2springOutput687582808925489114.xml]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Could not instantiate bean class [org.apache.uima.aae.controller.PrimitiveAnalysisEngineController_impl]: Constructor threw exception; nested exception is org.apache.uima.util.InvalidXMLException: An import could not be resolved.  No .xml file with name "descriptors.QADescriptor" was found in the class path or data path. (Descriptor: <unknown>)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'primitive_ctlr_QADescriptor_1.1' defined in URL [file:C:/Users/MENGDA~1/AppData/Local/Temp/UIMAdd2springOutput3290908930603964653.xml]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Could not instantiate bean class [org.apache.uima.aae.controller.PrimitiveAnalysisEngineController_impl]: Constructor threw exception; nested exception is org.apache.uima.util.InvalidXMLException: An import could not be resolved.  No .xml file with name "descriptors.QADescriptor" was found in the class path or data path. (Descriptor: <unknown>)
 	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:286)
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:993)
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:897)
